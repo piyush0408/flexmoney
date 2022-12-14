@@ -1,0 +1,48 @@
+.formContainer
+{
+     /* border: 1px solid black; */
+      display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+     padding: 1vmax;
+
+     /* margin: 2px 15px ; */
+}
+
+.inputContainer{
+    font-family:Georgia, 'Times New Roman', Times, serif ; 
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    margin:15px 0;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.inputClass{
+    padding: 10px;
+    outline: none;
+} 
+
+.eventContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.paymentButton
+{
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(16, 102, 16);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.paymentButton:hover{
+    background: rgb(5, 146, 5);
+
+}
